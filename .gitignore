@@ -1,0 +1,28 @@
+# Ignorar TODO por defecto: todo lo editable queda solo en local
+*
+
+# Editables de Office y copias (explícito, por claridad)
+*.docx
+*.doc
+*.dotx
+*.xlsx
+*.pptx
+~$*
+*_backup.*
+*_pdf_anterior.pdf
+*.tmp
+
+# Archivos de trabajo
+*.txt
+*.png
+*.jpg
+*.zip
+
+# Carpetas locales de edición (no subir)
+Editables/
+Borradores/
+
+# Excepciones: lo único que se sube
+!.gitignore
+!README.md
+!Desarrollo_Actividad_2_Alejandro_De_Mendoza_FIN.pdf
