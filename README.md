@@ -60,7 +60,7 @@ El caso es **DistriAndina S.A.S.**, una distribuidora colombiana de insumos tecn
 - ⚖️ **Madurez proporcional al riesgo**: nivel 3 (Controlada) en seis procesos críticos y nivel 2 (Monitorizada) en los nueve restantes.
 - 🧪 **El nivel cambia las actividades**: se muestra cómo se ejecutan cuatro procesos en los niveles 1, 2 y 3.
 - 🛡️ **Riesgo concentrado y mitigado**: seis riesgos (datos, facturación, accesos, proveedor, adopción y costos) asignados a procesos concretos.
-- 🏛️ **Alineado con el gobierno de TI**: los 15 procesos cubren los cuatro dominios de COBIT y los seis principios de ISO/IEC 38500.
+- 🏛️ **Alineado con el gobierno de TI**: los 15 procesos presentan correspondencias conceptuales con los cuatro dominios de COBIT (sin constituir una evaluación integral de este marco) y los seis principios de ISO/IEC 38500.
 - 🚦 **Un diseño revisable**: hoja de ruta por fases con puertas de decisión G0–G3 que permiten continuar, ajustar o detener.
 
 ---
@@ -94,7 +94,7 @@ El caso es **DistriAndina S.A.S.**, una distribuidora colombiana de insumos tecn
 |:---|:---|
 | **ITIL v3** | Ciclo de vida del servicio (estrategia, diseño, transición, operación, mejora continua) y selección de los 15 procesos |
 | **Marco de Madurez de Procesos de ITIL** | Escala de cinco niveles (No identificada, Monitorizada, Controlada, Proactiva, Mejorada), adaptada a una PYME |
-| **COBIT** | Verificación de que el flujo cubre los cuatro dominios: qué controlar (Tabla 7) |
+| **COBIT** | Correspondencia conceptual del flujo con los cuatro dominios (no es una evaluación integral de COBIT): qué controlar (Tabla 7) |
 | **ISO/IEC 38500** | Seis principios de gobierno de TI como lista de verificación del diseño (Tabla 8) |
 | **ISO/IEC 20000-1** | Marco de referencia del sistema de gestión del servicio |
 | **Ley 1581 de 2012 y normativa DIAN** | Requisitos de protección de datos personales y de facturación electrónica |
