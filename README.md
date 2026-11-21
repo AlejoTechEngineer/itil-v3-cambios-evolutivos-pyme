@@ -70,7 +70,7 @@ El caso es **DistriAndina S.A.S.**, una distribuidora colombiana de insumos tecn
 <table align="center">
   <tr><th>Elemento</th><th>Descripción</th></tr>
   <tr><td colspan="2"><b>📂 raíz</b></td></tr>
-  <tr><td><code>Desarrollo_Actividad_2_Alejandro_De_Mendoza_FIN.pdf</code></td><td>📄 <b>Documento entregado</b> (14 páginas): introducción, memoria explicativa, caso de la PYME, <b>Tabla 1</b> (secuencia de 15 procesos), <b>Tabla 2</b> (madurez actual y objetivo), riesgos, matriz RACI, hoja de ruta, alineación con COBIT e ISO/IEC 38500, análisis de sensibilidad, conclusiones y bibliografía</td></tr>
+  <tr><td><code>Desarrollo_Actividad_2_Alejandro_De_Mendoza_FIN.pdf</code></td><td>📄 <b>Documento entregado</b> (15 páginas): introducción, memoria explicativa, caso de la PYME, <b>Tabla 1</b> (secuencia de 15 procesos), <b>Tabla 2</b> (madurez actual y objetivo), riesgos, matriz RACI, hoja de ruta, alineación con COBIT e ISO/IEC 38500, análisis de sensibilidad, conclusiones y bibliografía</td></tr>
   <tr><td><code>README.md</code></td><td>📄 Este documento</td></tr>
   <tr><td><code>.gitignore</code></td><td>🚫 Mantiene en local los editables de Word, las copias de seguridad y los archivos de trabajo</td></tr>
 </table>
