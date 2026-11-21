@@ -57,7 +57,7 @@ El caso es **DistriAndina S.A.S.**, una distribuidora colombiana de insumos tecn
 ### 🌟 ¿Qué demuestra este trabajo?
 
 - 🔄 **Un flujo que recorre todo el ciclo de vida**: el cambio no se reduce a autorizar un despliegue; pasa por estrategia, diseño, transición, operación y mejora continua.
-- ⚖️ **Madurez proporcional al riesgo**: nivel 3 (Definido) en seis procesos críticos y nivel 2 (Repetible) en los nueve restantes.
+- ⚖️ **Madurez proporcional al riesgo**: nivel 3 (Controlada) en seis procesos críticos y nivel 2 (Monitorizada) en los nueve restantes.
 - 🧪 **El nivel cambia las actividades**: se muestra cómo se ejecutan cuatro procesos en los niveles 1, 2 y 3.
 - 🛡️ **Riesgo concentrado y mitigado**: seis riesgos (datos, facturación, accesos, proveedor, adopción y costos) asignados a procesos concretos.
 - 🏛️ **Alineado con el gobierno de TI**: los 15 procesos cubren los cuatro dominios de COBIT y los seis principios de ISO/IEC 38500.
@@ -93,7 +93,7 @@ El caso es **DistriAndina S.A.S.**, una distribuidora colombiana de insumos tecn
 | Marco o norma | Uso en el documento |
 |:---|:---|
 | **ITIL v3** | Ciclo de vida del servicio (estrategia, diseño, transición, operación, mejora continua) y selección de los 15 procesos |
-| **Marco de Madurez de Procesos de ITIL** | Escala de cinco niveles (Inicial, Repetible, Definido, Gestionado, Optimizado), adaptada a una PYME |
+| **Marco de Madurez de Procesos de ITIL** | Escala de cinco niveles (No identificada, Monitorizada, Controlada, Proactiva, Mejora continua), adaptada a una PYME |
 | **COBIT** | Verificación de que el flujo cubre los cuatro dominios: qué controlar (Tabla 7) |
 | **ISO/IEC 38500** | Seis principios de gobierno de TI como lista de verificación del diseño (Tabla 8) |
 | **ISO/IEC 20000-1** | Marco de referencia del sistema de gestión del servicio |
@@ -145,11 +145,11 @@ Escala adoptada (adaptada del Marco de Madurez de Procesos de ITIL):
 
 | Nivel | Nombre | Cómo se ve en una PYME |
 |:---:|:---|:---|
-| 1 | Inicial | Informal, depende de personas concretas, sin documentar |
-| 2 | Repetible | Procedimiento básico y registros mínimos |
-| 3 | Definido | Documentado, con roles, entradas y salidas, aplicado de forma estándar |
-| 4 | Gestionado | Medido con indicadores y control de desviaciones |
-| 5 | Optimizado | Mejora continua basada en datos, con automatización |
+| 1 | No identificada | Se hace de manera distinta cada vez, depende de personas concretas y no está documentado |
+| 2 | Monitorizada | Las actividades se repiten y se vigilan, pero todavía no hay un proceso definido ni registrado |
+| 3 | Controlada | Proceso definido, documentado y con un responsable, aplicado de forma estándar |
+| 4 | Proactiva | Proceso definido que se mide con regularidad y permite anticiparse a las desviaciones |
+| 5 | Mejora continua | Revisión permanente del proceso con datos y mejora sistemática, con automatización |
 
 Nivel objetivo por proceso (Tabla 2):
 
