@@ -93,7 +93,7 @@ El caso es **DistriAndina S.A.S.**, una distribuidora colombiana de insumos tecn
 | Marco o norma | Uso en el documento |
 |:---|:---|
 | **ITIL v3** | Ciclo de vida del servicio (estrategia, diseño, transición, operación, mejora continua) y selección de los 15 procesos |
-| **Marco de Madurez de Procesos de ITIL** | Escala de cinco niveles (No identificada, Monitorizada, Controlada, Proactiva, Mejora continua), adaptada a una PYME |
+| **Marco de Madurez de Procesos de ITIL** | Escala de cinco niveles (No identificada, Monitorizada, Controlada, Proactiva, Mejorada), adaptada a una PYME |
 | **COBIT** | Verificación de que el flujo cubre los cuatro dominios: qué controlar (Tabla 7) |
 | **ISO/IEC 38500** | Seis principios de gobierno de TI como lista de verificación del diseño (Tabla 8) |
 | **ISO/IEC 20000-1** | Marco de referencia del sistema de gestión del servicio |
@@ -149,7 +149,7 @@ Escala adoptada (adaptada del Marco de Madurez de Procesos de ITIL):
 | 2 | Monitorizada | Las actividades se repiten y se vigilan, pero todavía no hay un proceso definido ni registrado |
 | 3 | Controlada | Proceso definido, documentado y con un responsable, aplicado de forma estándar |
 | 4 | Proactiva | Proceso definido que se mide con regularidad y permite anticiparse a las desviaciones |
-| 5 | Mejora continua | Revisión permanente del proceso con datos y mejora sistemática, con automatización |
+| 5 | Mejorada | Existe una mejora continua de manera integrada en el sistema: revisión permanente del proceso con datos y mejora sistemática, con automatización |
 
 Nivel objetivo por proceso (Tabla 2):
 
