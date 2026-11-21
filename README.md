@@ -154,9 +154,9 @@ Escala adoptada (adaptada del Marco de Madurez de Procesos de ITIL):
 Nivel objetivo por proceso (Tabla 2):
 
 | Nivel objetivo | Procesos |
-|:---|:---|
-| **3 – Definido** | Proveedores, Seguridad de la información, Cambios, Validación y pruebas, Entregas y despliegues, Incidencias |
-| **2 – Repetible** | Demanda, Portafolio, Financiera, Catálogo, Niveles de servicio, Planificación de la transición, Configuración y activos, Evaluación, Mejora del servicio |
+| --- | --- |
+| **3 - Controlada** | Proveedores, Seguridad de la información, Cambios, Validación y pruebas, Entregas y despliegues, Incidencias |
+| **2 - Monitorizada** | Demanda, Portafolio, Financiera, Catálogo, Niveles de servicio, Planificación de la transición, Configuración y activos, Evaluación, Mejora del servicio |
 
 <details>
 <summary><b>📊 Ver nivel actual y objetivo de los 15 procesos</b></summary>
