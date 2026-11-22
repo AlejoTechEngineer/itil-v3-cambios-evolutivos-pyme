@@ -70,7 +70,7 @@ El caso es **DistriAndina S.A.S.**, una distribuidora colombiana de insumos tecn
 <table align="center">
   <tr><th>Elemento</th><th>Descripción</th></tr>
   <tr><td colspan="2"><b>📂 raíz</b></td></tr>
-  <tr><td><code>Desarrollo_Actividad_2_Alejandro_De_Mendoza_FIN.pdf</code></td><td>📄 <b>Documento entregado</b> (19 páginas): introducción, memoria explicativa, caso de la PYME, <b>Tabla 1</b> (secuencia de 15 procesos), <b>Tabla 2</b> (madurez actual y objetivo), riesgos, matriz RACI, hoja de ruta, alineación con COBIT e ISO/IEC 38500, análisis de sensibilidad, conclusiones y bibliografía</td></tr>
+  <tr><td><code>Desarrollo_Actividad_2_Alejandro_De_Mendoza_FIN.pdf</code></td><td>📄 <b>Documento entregado</b> (19 páginas): portada con código QR de este repositorio, introducción, memoria explicativa, caso de la PYME, <b>Tabla 1</b> (secuencia de 15 procesos), <b>Tabla 2</b> (madurez actual y objetivo), riesgos, matriz RACI, hoja de ruta, alineación con COBIT e ISO/IEC 38500, análisis de sensibilidad, conclusiones y bibliografía</td></tr>
   <tr><td><code>README.md</code></td><td>📄 Este documento</td></tr>
   <tr><td><code>.gitignore</code></td><td>🚫 Mantiene en local los editables de Word, las copias de seguridad y los archivos de trabajo</td></tr>
 </table>
@@ -205,10 +205,10 @@ El plan exige subir de nivel en 14 de los 15 procesos; Gestión Financiera ya es
 | ID | Riesgo | Procesos que lo mitigan |
 |:---:|:---|:---:|
 | R1 | Pérdida o descuadre de datos en la migración | 10 y 12 |
-| R2 | Interrupción de la facturación electrónica | 9 y 11 |
+| R2 | Interrupción de la facturación electrónica | 9, 11 y 12 |
 | R3 | Accesos indebidos o incumplimiento de la Ley 1581 | 7 |
 | R4 | Dependencia del proveedor del ERP | 5 y 6 |
-| R5 | Rechazo o errores de uso por parte de los usuarios | 8, 11 y 14 |
+| R5 | Rechazo o errores de uso por parte de los usuarios | 8, 11, 12 y 14 |
 | R6 | Sobrecostos o retrasos del proyecto | 2, 3 y 8 |
 
 <details>
@@ -235,7 +235,7 @@ GG: gerente general · AF: administración y finanzas · CTI: coordinador de TI 
 ```mermaid
 flowchart LR
     F0[Fase 0 - Preparación<br/>Procesos 1 a 7] -->|G0| F1[Fase 1 - Piloto en Bogotá<br/>Procesos 8 a 12]
-    F1 -->|G1| F2[Fase 2 - Extensión a sucursales<br/>Procesos 11 y 14]
+    F1 -->|G1| F2[Fase 2 - Extensión a sucursales<br/>Procesos 11, 12 y 14]
     F2 -->|G2| F3[Fase 3 - Estabilización y mejora<br/>Procesos 13 y 15]
     F3 -->|G3| Z[Cierre del cambio]
 ```
