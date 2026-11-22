@@ -70,7 +70,7 @@ El caso es **DistriAndina S.A.S.**, una distribuidora colombiana de insumos tecn
 <table align="center">
   <tr><th>Elemento</th><th>Descripción</th></tr>
   <tr><td colspan="2"><b>📂 raíz</b></td></tr>
-  <tr><td><code>Desarrollo_Actividad_2_Alejandro_De_Mendoza_FIN.pdf</code></td><td>📄 <b>Documento entregado</b> (15 páginas): introducción, memoria explicativa, caso de la PYME, <b>Tabla 1</b> (secuencia de 15 procesos), <b>Tabla 2</b> (madurez actual y objetivo), riesgos, matriz RACI, hoja de ruta, alineación con COBIT e ISO/IEC 38500, análisis de sensibilidad, conclusiones y bibliografía</td></tr>
+  <tr><td><code>Desarrollo_Actividad_2_Alejandro_De_Mendoza_FIN.pdf</code></td><td>📄 <b>Documento entregado</b> (19 páginas): introducción, memoria explicativa, caso de la PYME, <b>Tabla 1</b> (secuencia de 15 procesos), <b>Tabla 2</b> (madurez actual y objetivo), riesgos, matriz RACI, hoja de ruta, alineación con COBIT e ISO/IEC 38500, análisis de sensibilidad, conclusiones y bibliografía</td></tr>
   <tr><td><code>README.md</code></td><td>📄 Este documento</td></tr>
   <tr><td><code>.gitignore</code></td><td>🚫 Mantiene en local los editables de Word, las copias de seguridad y los archivos de trabajo</td></tr>
 </table>
@@ -113,7 +113,7 @@ flowchart TD
     F -.->|Nuevas demandas| A
 ```
 
-Los procesos **1 a 7** responden a si conviene el cambio y cómo debe ser el servicio, antes de tocar producción. Los procesos **8 a 13** ejecutan el cambio en el orden natural de la transición: planificar, autorizar, registrar la línea base, probar, desplegar y evaluar. El proceso **14** estabiliza el servicio y el **15** convierte lo aprendido en mejora y reabre el ciclo.
+Los procesos **1 a 7** responden a si conviene el cambio y cómo debe ser el servicio, antes de tocar producción. Los procesos **8 a 13** ejecutan el cambio en el orden natural de la transición: planificar, autorizar, registrar la línea base, desplegar, probar y evaluar. El proceso **14** estabiliza el servicio y el **15** convierte lo aprendido en mejora y reabre el ciclo.
 
 ---
 
@@ -131,8 +131,8 @@ Los procesos **1 a 7** responden a si conviene el cambio y cómo debe ser el ser
 | 8 | Planificación y Soporte a la Transición | Transición | Plan de migración con hitos, ventana de corte, comunicación y reversión |
 | 9 | Gestión de Cambios | Transición | RFC, evaluación de impacto y riesgo, y autorización por el comité de cambios |
 | 10 | Gestión de la Configuración y Activos | Transición | CMDB ligera con línea base antes y después del cambio |
-| 11 | Validación y Pruebas | Transición | Conciliación de datos, pruebas de integraciones y aceptación de usuarios clave |
-| 12 | Gestión de Entregas y Despliegues | Transición | Piloto en Bogotá y extensión a Medellín y Cali con reversión activa |
+| 11 | Gestión de Entregas y Despliegues | Transición | Piloto en Bogotá y extensión a Medellín y Cali con reversión activa |
+| 12 | Validación y Pruebas | Transición | Conciliación de datos, pruebas de integraciones y aceptación de usuarios clave |
 | 13 | Evaluación | Transición | Revisión posterior a la implementación y cierre del cambio |
 | 14 | Gestión de Incidencias | Operación | Soporte reforzado durante las dos primeras semanas dentro del SLA |
 | 15 | Mejora del Servicio | Mejora continua | Plan de mejora (SIP) con lecciones aprendidas e indicadores |
@@ -155,7 +155,7 @@ Nivel objetivo por proceso (Tabla 2):
 
 | Nivel objetivo | Procesos |
 | --- | --- |
-| **3 - Controlada** | Proveedores, Seguridad de la información, Cambios, Validación y pruebas, Entregas y despliegues, Incidencias |
+| **3 - Controlada** | Proveedores, Seguridad de la información, Cambios, Entregas y despliegues, Validación y pruebas, Incidencias |
 | **2 - Monitorizada** | Demanda, Portafolio, Financiera, Catálogo, Niveles de servicio, Planificación de la transición, Configuración y activos, Evaluación, Mejora del servicio |
 
 <details>
@@ -173,8 +173,8 @@ Nivel objetivo por proceso (Tabla 2):
 | 8 | Planificación de la transición | 1 | 2 |
 | 9 | Cambios | 1 | **3** |
 | 10 | Configuración y activos | 1 | 2 |
-| 11 | Validación y pruebas | 1 | **3** |
-| 12 | Entregas y despliegues | 1 | **3** |
+| 11 | Entregas y despliegues | 1 | **3** |
+| 12 | Validación y pruebas | 1 | **3** |
 | 13 | Evaluación | 1 | 2 |
 | 14 | Incidencias | 2 | **3** |
 | 15 | Mejora del servicio | 1 | 2 |
@@ -204,11 +204,11 @@ El plan exige subir de nivel en 14 de los 15 procesos; Gestión Financiera ya es
 
 | ID | Riesgo | Procesos que lo mitigan |
 |:---:|:---|:---:|
-| R1 | Pérdida o descuadre de datos en la migración | 10 y 11 |
-| R2 | Interrupción de la facturación electrónica | 9 y 12 |
+| R1 | Pérdida o descuadre de datos en la migración | 10 y 12 |
+| R2 | Interrupción de la facturación electrónica | 9 y 11 |
 | R3 | Accesos indebidos o incumplimiento de la Ley 1581 | 7 |
 | R4 | Dependencia del proveedor del ERP | 5 y 6 |
-| R5 | Rechazo o errores de uso por parte de los usuarios | 8, 12 y 14 |
+| R5 | Rechazo o errores de uso por parte de los usuarios | 8, 11 y 14 |
 | R6 | Sobrecostos o retrasos del proyecto | 2, 3 y 8 |
 
 <details>
@@ -235,7 +235,7 @@ GG: gerente general · AF: administración y finanzas · CTI: coordinador de TI 
 ```mermaid
 flowchart LR
     F0[Fase 0 - Preparación<br/>Procesos 1 a 7] -->|G0| F1[Fase 1 - Piloto en Bogotá<br/>Procesos 8 a 12]
-    F1 -->|G1| F2[Fase 2 - Extensión a sucursales<br/>Procesos 12 y 14]
+    F1 -->|G1| F2[Fase 2 - Extensión a sucursales<br/>Procesos 11 y 14]
     F2 -->|G2| F3[Fase 3 - Estabilización y mejora<br/>Procesos 13 y 15]
     F3 -->|G3| Z[Cierre del cambio]
 ```
